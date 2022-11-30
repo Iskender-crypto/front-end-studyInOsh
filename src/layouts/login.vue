@@ -1,4 +1,2 @@
-<template>
-  <slot></slot>
-</template>
+<template><slot></slot></template>
 <script setup lang="ts"></script>
