@@ -1,6 +1,4 @@
 <template>
-  <div class="cursor"></div>
-  <div class="cursor2"></div>
   <header class="header">
     <div class="container">
       <div class="header_info">
@@ -40,14 +38,14 @@
             <div class="header_wrap">
               <div class="header_block">
                 <div class="header_oshsu">
-                  <img src="img/Sulaiman_oshmu.png" alt="" />
+                  <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
                   <h2>Osh KU</h2>
                 </div>
                 <p>More 1200+ students</p>
               </div>
               <div class="header_block">
                 <div class="header_oshsu">
-                  <img src="img/Sulaiman_oshmu.png" alt="" />
+                  <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
                   <h2>Osh SU</h2>
                 </div>
                 <p>More 1200+ students</p>
@@ -56,14 +54,14 @@
             <div class="header_wrap">
               <div class="header_block">
                 <div class="header_oshsu">
-                  <img src="img/Sulaiman_oshmu.png" alt="" />
+                  <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
                   <h2>Osh SU</h2>
                 </div>
                 <p>More 1200+ students</p>
               </div>
               <div class="header_block">
                 <div class="header_oshsu">
-                  <img src="img/Sulaiman_oshmu.png" alt="" />
+                  <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
                   <h2>Osh TU</h2>
                 </div>
                 <p>More 1200+ students</p>
@@ -73,13 +71,13 @@
         </div>
         <div class="header_footer">
           <div class="down_vector">
-            <img src="img/down-vector.png" alt="" />
+            <img src="../assets/img/down-vector.png" alt="" />
           </div>
           <div class="header_information">
             <p>+ 15 universities</p>
             <div class="assistant">
               <div class="assistant__top">
-                <img src="img/Assistant.png" alt="" />
+                <img src="../assets/img/Assistant.png" alt="" />
                 <p>Assistant</p>
               </div>
               <p class="header__can">Can we help?</p>
@@ -141,25 +139,25 @@
         <div class="benefits_wrap">
           <div class="benefits_block">
             <div class="benefits_inblock">
-              <img src="img/benefits1.png" alt="" />
+              <img src="../assets/img/benefits1.png" alt="" />
               <p>Christian Bale (born 1974) Known for his and recurring</p>
             </div>
           </div>
           <div class="benefits_block">
             <div class="benefits_inblock">
-              <img src="img/benefits1.png" alt="" />
+              <img src="../assets/img/benefits1.png" alt="" />
               <p>Christian Bale (born 1974) Known for his and recurring</p>
             </div>
           </div>
           <div class="benefits_block">
             <div class="benefits_inblock">
-              <img src="img/benefits1.png" alt="" />
+              <img src="../assets/img/benefits1.png" alt="" />
               <p>Christian Bale (born 1974) Known for his and recurring</p>
             </div>
           </div>
           <div class="benefits_block">
             <div class="benefits_inblock">
-              <img src="img/benefits1.png" alt="" />
+              <img src="../assets/img/benefits1.png" alt="" />
               <p>Christian Bale (born 1974) Known for his and recurring</p>
             </div>
           </div>
@@ -185,7 +183,7 @@
         <div class="choose_block">
           <div class="choose_inblock">
             <div class="choose_top">
-              <img src="img/Sulaiman_oshmu.png" alt="" />
+              <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
               <h3>Osh SU</h3>
             </div>
             <p>More 1200+ students</p>
@@ -195,7 +193,7 @@
         <div class="choose_block">
           <div class="choose_inblock">
             <div class="choose_top">
-              <img src="img/Sulaiman_oshmu.png" alt="" />
+              <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
               <h3>Osh SU</h3>
             </div>
             <p>More 1200+ students</p>
@@ -204,7 +202,7 @@
         <div class="choose_block">
           <div class="choose_inblock">
             <div class="choose_top">
-              <img src="img/Sulaiman_oshmu.png" alt="" />
+              <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
               <h3>Osh SU</h3>
             </div>
             <p>More 1200+ students</p>
@@ -213,7 +211,7 @@
         <div class="choose_block">
           <div class="choose_inblock">
             <div class="choose_top">
-              <img src="img/Sulaiman_oshmu.png" alt="" />
+              <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
               <h3>Osh SU</h3>
             </div>
             <p>More 1200+ students</p>
@@ -222,7 +220,7 @@
         <div class="choose_block">
           <div class="choose_inblock">
             <div class="choose_top">
-              <img src="img/Sulaiman_oshmu.png" alt="" />
+              <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
               <h3>Osh SU</h3>
             </div>
             <p>More 1200+ students</p>
@@ -231,7 +229,7 @@
         <div class="choose_block">
           <div class="choose_inblock">
             <div class="choose_top">
-              <img src="img/Sulaiman_oshmu.png" alt="" />
+              <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
               <h3>Osh SU</h3>
             </div>
             <p>More 1200+ students</p>
@@ -240,7 +238,7 @@
         <div class="choose_block">
           <div class="choose_inblock">
             <div class="choose_top">
-              <img src="img/Sulaiman_oshmu.png" alt="" />
+              <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
               <h3>Osh SU</h3>
             </div>
             <p>More 1200+ students</p>
@@ -249,7 +247,7 @@
         <div class="choose_block">
           <div class="choose_inblock">
             <div class="choose_top">
-              <img src="img/Sulaiman_oshmu.png" alt="" />
+              <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
               <h3>Osh SU</h3>
             </div>
             <p>More 1200+ students</p>
@@ -277,7 +275,7 @@
                 How much it cost to study in Kyrgyzstan?
               </h3>
               <img
-                src="img/Short_down_vector.png"
+                src="../assets/img/Short_down_vector.png"
                 alt=""
                 class="question_img question_rotate"
               />
@@ -302,7 +300,7 @@
                 How much it cost to study in Kyrgyzstan?
               </h3>
               <img
-                src="img/Short_down_vector.png"
+                src="../assets/img/Short_down_vector.png"
                 alt=""
                 class="question_img"
               />
@@ -327,7 +325,7 @@
                 How much it cost to study in Kyrgyzstan?
               </h3>
               <img
-                src="img/Short_down_vector.png"
+                src="../assets/img/Short_down_vector.png"
                 alt=""
                 class="question_img"
               />
@@ -352,7 +350,7 @@
                 How much it cost to study in Kyrgyzstan?
               </h3>
               <img
-                src="img/Short_down_vector.png"
+                src="../assets/img/Short_down_vector.png"
                 alt=""
                 class="question_img"
               />
@@ -415,7 +413,7 @@
         <div class="learn_wrap">
           <div class="learn_block">
             <div class="learn_inblock">
-              <img src="img/benefits1.png" alt="" />
+              <img src="../assets/img/benefits1.png" alt="" />
               <div class="learn_number">
                 <h3>1.</h3>
                 <p>Christian Bale (born 1974) Known for his and recurring</p>
@@ -424,7 +422,7 @@
           </div>
           <div class="learn_block">
             <div class="learn_inblock">
-              <img src="img/benefits2.png" alt="" />
+              <img src="../assets/img/benefits2.png" alt="" />
               <div class="learn_number">
                 <h3>2.</h3>
                 <p>Christian Bale (born 1974) Known for his and recurring</p>
@@ -433,7 +431,7 @@
           </div>
           <div class="learn_block">
             <div class="learn_inblock">
-              <img src="img/benefits3.png" alt="" />
+              <img src="../assets/img/benefits3.png" alt="" />
               <div class="learn_number">
                 <h3>3.</h3>
                 <p>Christian Bale (born 1974) Known for his and recurring</p>
@@ -442,7 +440,7 @@
           </div>
           <div class="learn_block">
             <div class="learn_inblock">
-              <img src="img/benefits4.png" alt="" />
+              <img src="../assets/img/benefits4.png" alt="" />
               <div class="learn_number">
                 <h3>4.</h3>
                 <p>Christian Bale (born 1974) Known for his and recurring</p>
@@ -468,7 +466,7 @@
     <div class="support_row">
       <div class="support_block">
         <div class="support_inblock">
-          <img src="img/flag_kg.png" alt="" />
+          <img src="../assets/img/flag_kg.png" alt="" />
           <div class="support_text">
             <h2>Kyrgyzstan</h2>
             <p>1200+ Students</p>
@@ -478,7 +476,7 @@
 
       <div class="support_block">
         <div class="support_inblock">
-          <img src="img/flag_kz.png" alt="" />
+          <img src="../assets/img/flag_kz.png" alt="" />
           <div class="support_text">
             <h2>Kazakhstan</h2>
             <p>1200+ Students</p>
@@ -488,7 +486,7 @@
 
       <div class="support_block">
         <div class="support_inblock">
-          <img src="img/flag_uz.png" alt="" />
+          <img src="../assets/img/flag_uz.png" alt="" />
           <div class="support_text">
             <h2>Uzbekistan</h2>
             <p>1200+ Students</p>
@@ -498,7 +496,7 @@
 
       <div class="support_block">
         <div class="support_inblock">
-          <img src="img/flag_uz.png" alt="" />
+          <img src="../assets/img/flag_uz.png" alt="" />
           <div class="support_text">
             <h2>Uzbekistan</h2>
             <p>1200+ Students</p>
@@ -508,7 +506,7 @@
 
       <div class="support_block">
         <div class="support_inblock">
-          <img src="img/flag_kg.png" alt="" />
+          <img src="../assets/img/flag_kg.png" alt="" />
           <div class="support_text">
             <h2>Kyrgyzstan</h2>
             <p>1200+ Students</p>
@@ -614,7 +612,7 @@
             </div>
             <a href="#">
               Read more
-              <img src="img/next.png" alt="" />
+              <img src="../assets/img/next.png" alt="" />
             </a>
           </div>
         </div>
@@ -627,7 +625,7 @@
             </div>
             <a href="#">
               Read more
-              <img src="img/next.png" alt="" />
+              <img src="../assets/img/next.png" alt="" />
             </a>
           </div>
         </div>
@@ -640,7 +638,7 @@
             </div>
             <a href="#">
               Read more
-              <img src="img/next.png" alt="" />
+              <img src="../assets/img/next.png" alt="" />
             </a>
           </div>
         </div>
@@ -668,13 +666,13 @@
         >
         <a href="#" target="_blank"
           ><img
-            src="img/square.png"
+            src="../assets/img/square.png"
             alt=""
             class="contact_insta"
           />studyinosh</a
         >
         <a href="#" target="_blank"
-          ><img src="img/square.png" alt="" />studyinosh</a
+          ><img src="../assets/img/square.png" alt="" />studyinosh</a
         >
       </div>
       <p class="contact_description">

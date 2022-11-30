@@ -15,4 +15,3 @@ const layout = computed(() => {
   return shallowRef(AppLayout);
 });
 </script>
-<style src="./assets/css/reset.css"></style>

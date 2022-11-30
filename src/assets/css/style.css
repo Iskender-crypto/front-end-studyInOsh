@@ -1,4 +1,5 @@
 /* ===========COMMON========== */
+
 body {
   font-family: "Gilroy";
   background-color: #f5f5f5;
@@ -92,6 +93,7 @@ body {
 .header_menu {
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
 
 .header_menu .menu {
@@ -129,6 +131,7 @@ header .container {
   font-size: 14px;
   line-height: 17px;
   color: #ffffff;
+  margin-bottom: 0px;
 }
 .header_language-line {
   border-right: 1px solid #e0dedd;
