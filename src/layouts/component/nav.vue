@@ -1,80 +1,93 @@
 <template>
-  <nav>
-    <ul class="nav__menu">
-      <li>
-        <router-link to="/" class="nav__router admin">Админ</router-link>
-      </li>
-      <li>
-        <router-link class="nav__router" to="/carts">Карты</router-link>
-      </li>
-      <li>
-        <router-link class="nav__router" to="/quotes">Цитаты</router-link>
-      </li>
-      <li>
-        <router-link class="nav__router" to="/users">Пользователи</router-link>
-      </li>
-      <li>
-        <router-link class="nav__router" to="/posts">Посты</router-link>
-      </li>
-      <li>
-        <router-link class="nav__router" to="/todos">Список дел</router-link>
-      </li>
-      <li>
-        <router-link class="nav__router" to="/comments"
-          >Комментарий</router-link
-        >
-      </li>
-      <li>
-        <router-link class="nav__router" to="/products">Товары</router-link>
-      </li>
-      <li>
-        <router-link class="nav__router" to="/login/register"
-          >Войти</router-link
-        >
-      </li>
-    </ul>
+  <nav class="header_nav">
+    <div class="header_logo">
+      <div class="logo"></div>
+      <div class="header_language">
+        <div class="header_language">
+          <p class="header_language-line">Ru</p>
+          <p>Choose your language</p>
+        </div>
+      </div>
+    </div>
+    <div class="header_menu">
+      <ul class="menu">
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/we">About</router-link></li>
+        <li><a href="#contact">Contacts</a></li>
+        <li><router-link to="/allList">All list</router-link></li>
+        <li><router-link to="/news">News</router-link></li>
+      </ul>
+      <div class="header_burger">
+        <div class="burger_item"></div>
+        <div class="burger_item"></div>
+        <div class="burger_item"></div>
+      </div>
+    </div>
   </nav>
 </template>
 <style scoped>
-nav {
-  position: fixed;
-  left: 0px;
-  height: 100vh;
-  background-color: rgb(185, 227, 167);
-  padding: 30px;
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-ul,
-ol,
-li,
-dl {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.header_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_logo .logo {
+  width: 100px;
+  height: 100px;
+  background-color: #d9d9d9;
+  margin-right: 70px;
+}
+.header_menu {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
 }
 
-.nav__router {
-  text-decoration: none;
-  font-size: 20px;
+.header_menu .menu {
+  display: flex;
+  padding-right: 18px;
+  border-right: 2px solid #c4c4c4;
+  height: 58px;
+  align-items: center;
+  margin-right: 25px;
+}
+.header_menu .menu li {
+  margin-left: 50px;
   font-weight: 500;
-  margin: 10px 0px;
-  display: block;
-  padding: 15px;
-  color: black;
-  border-radius: 15px;
-}
-.nav__router:hover {
-  background-color: rgb(33, 52, 30);
-  color: white;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
 }
 
-.admin {
-  font-size: 50px;
-  color: black;
-  font-weight: 700;
+.header_menu .menu li:hover {
+  text-decoration: underline;
 }
-.admin:hover {
-  color: black;
-  font-weight: 700;
-  background-color: transparent;
+header .container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.header_language {
+  display: flex;
+}
+.header_language p {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.header_language-line {
+  border-right: 1px solid #e0dedd;
+  padding-right: 7px;
+  margin-right: 7px;
 }
 </style>

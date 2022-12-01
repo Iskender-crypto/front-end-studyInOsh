@@ -2,30 +2,7 @@
   <header class="header">
     <div class="container">
       <div class="header_info">
-        <nav class="header_nav">
-          <div class="header_logo">
-            <div class="logo"></div>
-            <div class="header_language">
-              <div class="header_language">
-                <p class="header_language-line">Ru</p>
-                <p>Choose your language</p>
-              </div>
-            </div>
-          </div>
-          <div class="header_menu">
-            <ul class="menu">
-              <li><a href="we.html">About</a></li>
-              <li><a href="">Contacts</a></li>
-              <li><a href="allList.html">All list</a></li>
-              <li><a href="new.html">News</a></li>
-            </ul>
-            <div class="header_burger">
-              <div class="burger_item"></div>
-              <div class="burger_item"></div>
-              <div class="burger_item"></div>
-            </div>
-          </div>
-        </nav>
+        <Nav />
         <div class="header_banner">
           <div class="header_text">
             <h1>Study at universities in Osh</h1>
@@ -269,7 +246,7 @@
         </div>
 
         <div class="question_wrap">
-          <div class="question_block" @click="toggleText" :class="classList">
+          <div class="question_block" @click="toggleText1" :class="classList1">
             <div class="question_answer">
               <h3 class="question_title">
                 How much it cost to study in Kyrgyzstan?
@@ -277,7 +254,8 @@
               <img
                 src="../assets/img/Short_down_vector.png"
                 alt=""
-                class="question_img question_rotate"
+                class="question_img"
+                :class="classListImg1"
               />
             </div>
 
@@ -294,7 +272,7 @@
               Christian Bale (born 1974) is an English actor.
             </div>
           </div>
-          <div class="question_block" @click="toggleText" :class="classList">
+          <div class="question_block" @click="toggleText2" :class="classList2">
             <div class="question_answer">
               <h3 class="question_title">
                 How much it cost to study in Kyrgyzstan?
@@ -303,14 +281,11 @@
                 src="../assets/img/Short_down_vector.png"
                 alt=""
                 class="question_img"
+                :class="classListImg2"
               />
             </div>
 
-            <div
-              class="question_inblock"
-              @click="toggleText"
-              :class="classList"
-            >
+            <div class="question_inblock">
               Christian Bale (born 1974) is an English actor. Known for his
               versatility and recurring physicChristian Bale (born 1974) is an
               English actor. Known for his versatility and recurring physical
@@ -323,7 +298,7 @@
               Christian Bale (born 1974) is an English actor.
             </div>
           </div>
-          <div class="question_block" @click="toggleText" :class="classList">
+          <div class="question_block" @click="toggleText3" :class="classList3">
             <div class="question_answer">
               <h3 class="question_title">
                 How much it cost to study in Kyrgyzstan?
@@ -332,14 +307,11 @@
                 src="../assets/img/Short_down_vector.png"
                 alt=""
                 class="question_img"
+                :class="classListImg3"
               />
             </div>
 
-            <div
-              class="question_inblock"
-              @click="toggleText"
-              :class="classList"
-            >
+            <div class="question_inblock">
               Christian Bale (born 1974) is an English actor. Known for his
               versatility and recurring physicChristian Bale (born 1974) is an
               English actor. Known for his versatility and recurring physical
@@ -352,7 +324,7 @@
               Christian Bale (born 1974) is an English actor.
             </div>
           </div>
-          <div class="question_block" @click="toggleText" :class="classList">
+          <div class="question_block" @click="toggleText4" :class="classList4">
             <div class="question_answer">
               <h3 class="question_title">
                 How much it cost to study in Kyrgyzstan?
@@ -361,6 +333,7 @@
                 src="../assets/img/Short_down_vector.png"
                 alt=""
                 class="question_img"
+                :class="classListImg4"
               />
             </div>
 
@@ -654,6 +627,7 @@
     </div>
   </section>
 
+  <a name="contact"></a>
   <section class="contact">
     <div class="contact_text">
       <div class="title">
@@ -761,13 +735,56 @@
 </template>
 <script setup lang="ts">
 import { ref, Ref } from "vue";
-const classList: Ref<string> = ref("");
-const toggleText = (e: MouseEvent) => {
+import Nav from "../layouts/component/nav.vue";
+const classList1: Ref<string> = ref("");
+const classList2: Ref<string> = ref("");
+const classList3: Ref<string> = ref("");
+const classList4: Ref<string> = ref("");
+const classListImg1: Ref<string> = ref("");
+const classListImg2: Ref<string> = ref("");
+const classListImg3: Ref<string> = ref("");
+const classListImg4: Ref<string> = ref("");
+const toggleText1 = (e: MouseEvent) => {
   if (e.target?.className === "question_answer") {
-    if (classList.value) {
-      classList.value = "";
+    if (classList1.value && classListImg1) {
+      classList1.value = "";
+      classListImg1.value = "";
     } else {
-      classList.value = "question_block-active";
+      classList1.value = "question_block-active";
+      classListImg1.value = "question_rotate";
+    }
+  }
+};
+const toggleText2 = (e: MouseEvent) => {
+  if (e.target?.className === "question_answer") {
+    if (classList2.value && classListImg2) {
+      classList2.value = "";
+      classListImg2.value = "";
+    } else {
+      classList2.value = "question_block-active";
+      classListImg2.value = "question_rotate";
+    }
+  }
+};
+const toggleText3 = (e: MouseEvent) => {
+  if (e.target?.className === "question_answer") {
+    if (classList3.value && classListImg3) {
+      classList3.value = "";
+      classListImg3.value = "";
+    } else {
+      classList3.value = "question_block-active";
+      classListImg3.value = "question_rotate";
+    }
+  }
+};
+const toggleText4 = (e: MouseEvent) => {
+  if (e.target?.className === "question_answer") {
+    if (classList4.value && classListImg4) {
+      classList4.value = "";
+      classListImg4.value = "";
+    } else {
+      classList4.value = "question_block-active";
+      classListImg4.value = "question_rotate";
     }
   }
 };
