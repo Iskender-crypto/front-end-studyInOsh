@@ -5,7 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Study in Osh</title>
-    <link rel="stylesheet" href="./src/assets//font/Gilroy/stylesheet.css" />
+    <link rel="stylesheet" href="./src/assets/font/Gilroy/stylesheet.css" />
   </head>
   <body>
     <div class="cursor"></div>
@@ -20,21 +20,6 @@
         cursor.style.cssText = cursor2.style.cssText =
           "left: " + e.clientX + "px; top: " + e.clientY + "px;";
       });
-
-      let questionBlock = Array.from(
-        document.getElementsByClassName("question_block"),
-      );
-
-      let rotateArr = Array.from(
-        document.getElementsByClassName("question_img"),
-      );
-
-      for (let i = 0; i < questionBlock.length; i++) {
-        questionBlock[i].onclick = (e) => {
-          questionBlock[i].classList.toggle("question_block-active");
-          rotateArr[i].classList.toggle("question_rotate");
-        };
-      }
     </script>
   </body>
 </html>

@@ -269,7 +269,7 @@
         </div>
 
         <div class="question_wrap">
-          <div class="question_block">
+          <div class="question_block" @click="toggleText" :class="classList">
             <div class="question_answer">
               <h3 class="question_title">
                 How much it cost to study in Kyrgyzstan?
@@ -294,7 +294,7 @@
               Christian Bale (born 1974) is an English actor.
             </div>
           </div>
-          <div class="question_block">
+          <div class="question_block" @click="toggleText" :class="classList">
             <div class="question_answer">
               <h3 class="question_title">
                 How much it cost to study in Kyrgyzstan?
@@ -306,7 +306,11 @@
               />
             </div>
 
-            <div class="question_inblock">
+            <div
+              class="question_inblock"
+              @click="toggleText"
+              :class="classList"
+            >
               Christian Bale (born 1974) is an English actor. Known for his
               versatility and recurring physicChristian Bale (born 1974) is an
               English actor. Known for his versatility and recurring physical
@@ -319,7 +323,7 @@
               Christian Bale (born 1974) is an English actor.
             </div>
           </div>
-          <div class="question_block">
+          <div class="question_block" @click="toggleText" :class="classList">
             <div class="question_answer">
               <h3 class="question_title">
                 How much it cost to study in Kyrgyzstan?
@@ -331,7 +335,11 @@
               />
             </div>
 
-            <div class="question_inblock">
+            <div
+              class="question_inblock"
+              @click="toggleText"
+              :class="classList"
+            >
               Christian Bale (born 1974) is an English actor. Known for his
               versatility and recurring physicChristian Bale (born 1974) is an
               English actor. Known for his versatility and recurring physical
@@ -344,7 +352,7 @@
               Christian Bale (born 1974) is an English actor.
             </div>
           </div>
-          <div class="question_block">
+          <div class="question_block" @click="toggleText" :class="classList">
             <div class="question_answer">
               <h3 class="question_title">
                 How much it cost to study in Kyrgyzstan?
@@ -751,6 +759,17 @@
     </div>
   </section>
 </template>
-
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref, Ref } from "vue";
+const classList: Ref<string> = ref("");
+const toggleText = (e: MouseEvent) => {
+  if (e.target?.className === "question_answer") {
+    if (classList.value) {
+      classList.value = "";
+    } else {
+      classList.value = "question_block-active";
+    }
+  }
+};
+</script>
 <style src="../assets/css/style.css"></style>
