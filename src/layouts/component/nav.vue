@@ -13,7 +13,9 @@
       <ul class="menu">
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/we">About</router-link></li>
-        <li><a href="#contact">Contacts</a></li>
+        <li>
+          <slot></slot>
+        </li>
         <li><router-link to="/allList">All list</router-link></li>
         <li><router-link to="/news">News</router-link></li>
       </ul>

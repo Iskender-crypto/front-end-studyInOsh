@@ -2,7 +2,9 @@
   <header class="header__all">
     <div class="container">
       <div class="header_info">
-        <Nav></Nav>
+        <Nav>
+          <router-link :to="`/contact`">Contacts</router-link>
+        </Nav>
         <div class="title all__ist">
           <h2>What we do?</h2>
           <p>
@@ -32,6 +34,49 @@
             <p>movie</p>
             <p>palace in downtown</p>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="work">
+    <div class="container">
+      <div class="work__info">
+        <h2 class="work__title">What we do?</h2>
+        <div class="work__item">
+          <h2>1.</h2>
+          <h3>We do something</h3>
+          <p>
+            The Paramount Theatre was a movie palace in downtown Atlanta,
+            Georgia, United States. The building was designed by Philip T.
+            Shutze and was completed in 1920 as the Howard Theatre
+          </p>
+        </div>
+        <div class="work__item">
+          <h2>2.</h2>
+          <h3>We do something</h3>
+          <p>
+            The Paramount Theatre was a movie palace in downtown Atlanta,
+            Georgia, United States. The building was designed by Philip T.
+            Shutze and was completed in 1920 as the Howard Theatre
+          </p>
+        </div>
+        <div class="work__item">
+          <h2>3.</h2>
+          <h3>We do something</h3>
+          <p>
+            The Paramount Theatre was a movie palace in downtown Atlanta,
+            Georgia, United States. The building was designed by Philip T.
+            Shutze and was completed in 1920 as the Howard Theatre
+          </p>
+        </div>
+        <div class="work__item">
+          <h2>4.</h2>
+          <h3>We do something</h3>
+          <p>
+            The Paramount Theatre was a movie palace in downtown Atlanta,
+            Georgia, United States. The building was designed by Philip T.
+            Shutze and was completed in 1920 as the Howard Theatre
+          </p>
         </div>
       </div>
     </div>

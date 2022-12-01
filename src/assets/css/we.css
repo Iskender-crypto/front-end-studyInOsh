@@ -45,3 +45,42 @@
   margin: 10px 0px;
   margin-right: 40px;
 }
+.work {
+  margin-bottom: 100px;
+}
+.work__item {
+  display: flex;
+  height: 176px;
+  background-color: #e4e4e4;
+  border-radius: 20px;
+  align-items: center;
+  padding-left: 38px;
+  margin-bottom: 50px;
+}
+.work__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #323130;
+  margin-bottom: 40px;
+}
+.work__item h2 {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 69px;
+  color: #323130;
+}
+.work__item h3 {
+  margin: 0px 139px 0px 58px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #323130;
+}
+.work__item p {
+  width: 424px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  color: #323130;
+}

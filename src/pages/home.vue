@@ -2,7 +2,9 @@
   <header class="header">
     <div class="container">
       <div class="header_info">
-        <Nav />
+        <Nav>
+          <a href="#contact">Contacts</a>
+        </Nav>
         <div class="header_banner">
           <div class="header_text">
             <h1>Study at universities in Osh</h1>
