@@ -1,3 +1,3 @@
 <template>
-  <h1>new</h1>
+  <h1>new malika</h1>
 </template>
