@@ -1,11 +1,19 @@
 <template>
   <header class="header">
-    <Nav></Nav>
-    <h1 class="title__1">What we do?</h1>
+    <div class="container">
+      <Nav></Nav>
+      <div class="title__text">
+        <h1 class="title__1">What we do?</h1>
+        <p>
+          Christian Bale (born 1974) is an English actor. <br />
+          Known for his versatility and recurring physical
+        </p>
+      </div>
+    </div>
   </header>
 
   <section class="What we do?">
-    <div class="my__container">
+    <div class="container">
       <p class="title">What we do?</p>
       <div class="blocks">
         <div class="block">
@@ -67,24 +75,28 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 900px;
+}
+.title__text {
+  margin-left: 100px;
+  margin-top: 200px;
 }
 .title__1 {
-  display: flex;
-  align-items: center;
   justify-content: center;
   font-family: "Gilroy";
   font-style: normal;
   font-size: 120px;
   line-height: 147px;
   color: #e8f7f7;
-  padding-top: 200px;
-  padding-left: -174px;
 }
-
-.my__container {
-  width: 1140px;
-  margin: auto;
+.title__text p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: -0.01em;
+  color: #f5f5f5;
 }
 .title {
   display: flex;
@@ -112,7 +124,6 @@ body {
   border-radius: 22px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 40px 45px;
   margin-bottom: 35px;
 }
@@ -124,6 +135,7 @@ body {
   line-height: 50px;
   letter-spacing: -0.01em;
   color: #323130;
+  padding-left: 50px;
 }
 .block__description {
   width: 354px;
@@ -134,6 +146,7 @@ body {
   line-height: 25px;
   letter-spacing: -0.01em;
   color: #323130;
+  padding-left: 100px;
 }
 .block__example {
   font-family: "Gilroy";
