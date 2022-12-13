@@ -54,9 +54,6 @@
 <script setup lang="ts">
 import Nav from "../layouts/component/nav.vue";
 </script>
-<<<<<<< HEAD
-<style scoped></style>
-=======
 
 <style scoped>
 body {
