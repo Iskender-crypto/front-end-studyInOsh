@@ -1,38 +1,7 @@
 <template>
   <header class="header">
     <div class="my__container">
-      <div class="navbar">
-        <div class="navbar__left">
-          <img class="nav__logo" src="../assets/img/square.png" alt="" />
-          <div class="language__selection">
-            RU
-            <div class="lg__line"></div>
-            Choose your language
-          </div>
-        </div>
-        <div class="navbar__right">
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">All list</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">News</a>
-            </li>
-          </ul>
-          <div class="nav__line"></div>
-          <div class="hamburger__menu">
-            <div class="burger-item"></div>
-            <div class="burger-item"></div>
-            <div class="burger-item"></div>
-          </div>
-        </div>
-      </div>
+      <Nav></Nav>
       <h1 class="bg__title">OshTU</h1>
       <p class="bg__subtitle">
         Christian Bale (born 1974) is an English actor. Known for his
@@ -332,3 +301,6 @@
   </section>
 </template>
 <style scoped src="../assets/css/univer.css"></style>
+<script setup lang="ts">
+import Nav from "../layouts/component/nav.vue";
+</script>
