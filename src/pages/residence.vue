@@ -1,38 +1,7 @@
 <template>
   <link rel="stylesheet" href="../assets/font/Gilroy/stylesheet.css" />
   <div class="container">
-    <div class="navbar">
-      <div class="navbar__left">
-        <img class="nav__logo" src="../assets/img/square-black.png" alt="" />
-        <div class="language__selection">
-          RU
-          <div class="lg__line"></div>
-          Choose your language
-        </div>
-      </div>
-      <div class="navbar__right">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacts</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">All list</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">News</a>
-          </li>
-        </ul>
-        <div class="nav__line"></div>
-        <div class="hamburger__menu">
-          <div class="burger-item"></div>
-          <div class="burger-item"></div>
-          <div class="burger-item"></div>
-        </div>
-      </div>
-    </div>
+    <NavBlack></NavBlack>
     <div class="line"></div>
 
     <div class="d-flex justify-content-between align-items-end">
@@ -53,3 +22,6 @@
   </div>
 </template>
 <style scoped src="../assets/css/residence.css"></style>
+<script setup lang="ts">
+import NavBlack from "../layouts/component/nav-black.vue";
+</script>
