@@ -1,4 +1,5 @@
 <template>
+  <link rel="stylesheet" href="../assets/font/Gilroy/stylesheet.css" />
   <div class="container">
     <div class="navbar">
       <div class="navbar__left">
