@@ -12,6 +12,25 @@
     </div>
   </header>
 
+  <section class="What">
+    <div class="container">
+      <div>
+        <div class="block_what">
+          <h1 class="title1">What we do?</h1>
+          <p class="The__Paramount">
+            <b>
+              The Paramount Theatre was a movie palace in downtown Atlanta,
+              Georgia, United States. The building was designed by Philip T.
+              Shutze and was completed in 1920 as the Howard Theatre, a name it
+              kept until 1929. It was located along Peachtree Street, in an area
+              that soon became the location of several other major theaters.
+            </b>
+            <div class="line"></div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="What we do?">
     <div class="container">
       <p class="title">What we do?</p>
@@ -58,7 +77,6 @@
     </div>
   </section>
 </template>
-
 <script setup lang="ts">
 import Nav from "../layouts/component/nav.vue";
 </script>
@@ -108,14 +126,38 @@ body {
   color: #323130;
   margin-top: 100px;
 }
+/* ******************************************************************************** */
 
-/* .colum {
-  width: 1280px;
-  height: 176px;
-  background: #e4e4e4;
-  border-radius: 20px;
-} */
+.block_what {
+  display: flex;
+  justify-content: space-between;
+}
+.title1 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 69px;
+  color: #323130;
+}
+.The__Paramount {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  color: #323130;
+}
+.line {
+  position: absolute;
+  width: 478px;
+  height: 0px;
+  left: 578px;
+  top: 1262px;
+  border: 1px solid #a19f9d;
+}
 
+/* *********************************************************************** */
 .block {
   background: #d9d9d9;
   border-radius: 22px;
