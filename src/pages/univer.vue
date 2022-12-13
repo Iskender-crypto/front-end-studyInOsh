@@ -1,5 +1,36 @@
 <template>
-  <header class="header"></header>
+  <header class="header">
+    <div class="my__container">
+      <Nav></Nav>
+      <h1 class="bg__title">OshTU</h1>
+      <p class="bg__subtitle">
+        Christian Bale (born 1974) is an English actor. Known for his
+        versatility and recurring physical
+      </p>
+      <div class="bg__blocks">
+        <div class="bg__block">
+          <img src="../assets/img/faculty.png" alt="" class="bg__block__img" />
+          <p class="bg__block__title">Faculty</p>
+        </div>
+        <div class="bg__block">
+          <img
+            src="../assets/img/documents.png"
+            alt=""
+            class="bg__block__img"
+          />
+          <p class="bg__block__title">Documents</p>
+        </div>
+        <div class="bg__block">
+          <img src="../assets/img/price.png" alt="" class="bg__block__img" />
+          <p class="bg__block__title">Price</p>
+        </div>
+        <div class="bg__block">
+          <img src="../assets/img/others.png" alt="" class="bg__block__img" />
+          <p class="bg__block__title">Others</p>
+        </div>
+      </div>
+    </div>
+  </header>
 
   <section class="faculty">
     <div class="my__container">
@@ -269,240 +300,7 @@
     </div>
   </section>
 </template>
-<style scoped>
-body {
-  margin: 0;
-}
-.header {
-  background-image: url(../assets/img/allListBanner.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-.my__container {
-  width: 1140px;
-  margin: auto;
-}
-.flex-row {
-  width: 1140px;
-  background: #d9d9d9;
-  border-radius: 22px;
-}
-.flex-row h3 {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
-  letter-spacing: -0.01em;
-  color: #323130;
-  padding: 35px 0px 0px 35px;
-}
-.title {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 120px;
-  line-height: 147px;
-  letter-spacing: -0.01em;
-  color: #323130;
-  margin-top: 100px;
-}
-.my__row {
-  display: flex;
-  flex-flow: wrap;
-  margin-left: 20px;
-}
-.col {
-  width: 25%;
-  padding-left: -20px;
-  padding-bottom: 20px;
-}
-.block {
-  position: relative;
-  width: 260px;
-  height: 260px;
-  background: #1c1c1c;
-  border-radius: 17px;
-  display: flex;
-}
-
-.img__and__text {
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.img__and__text .img {
-  width: 42px;
-  height: 42px;
-  object-fit: cover;
-  object-position: center;
-}
-.text {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-.text p {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 17px;
-  line-height: 22px;
-  color: #f5f5f5;
-}
-.text a img {
-  width: 8px;
-  height: 16px;
-  object-fit: cover;
-  object-position: center;
-  color: aliceblue;
-}
-
-.long__block {
-  background: #d9d9d9;
-  border-radius: 22px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px 45px;
-  margin-bottom: 35px;
-}
-.long__block__title {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
-  letter-spacing: -0.01em;
-  color: #323130;
-}
-.long__block__description {
-  width: 354px;
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 17px;
-  line-height: 25px;
-  letter-spacing: -0.01em;
-  color: #323130;
-}
-.long__block__example {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 17px;
-  line-height: 25px;
-  letter-spacing: -0.01em;
-  color: #323130;
-}
-
-.price__row {
-  width: 1240px;
-  height: 343px;
-  border: 3px solid #323130;
-  border-radius: 33px;
-  display: flex;
-  flex-flow: wrap;
-  align-items: center;
-  margin-left: -50px;
-}
-.price__col {
-  width: 25%;
-  padding-left: 50px;
-}
-.price__block {
-  width: 250px;
-  height: 250px;
-  background: #d9d9d9;
-  border-radius: 22px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 15px;
-}
-.price__btitle {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
-  letter-spacing: -0.01em;
-  color: #323130;
-}
-.price__text {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 49px;
-  letter-spacing: -0.01em;
-  color: #323130;
-}
-
-.others__row {
-  display: flex;
-  flex-flow: wrap;
-  align-items: center;
-  margin-left: -80px;
-}
-.others__col {
-  width: 50%;
-  padding-left: 80px;
-  padding-bottom: 80px;
-}
-.others__block {
-  width: 540px;
-  height: 540px;
-  background: #d9d9d9;
-  border-radius: 22px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 40px;
-}
-.others__title {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 69px;
-  letter-spacing: -0.01em;
-  color: #323130;
-}
-.others__description {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 17px;
-  line-height: 25px;
-  letter-spacing: -0.01em;
-  color: #323130;
-}
-.others__block__and__link {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.others__block__and__link button {
-  width: 220px;
-  height: 60px;
-  border-radius: 12px;
-  margin-bottom: 20px;
-}
-.others__block__and__link .link {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 17px;
-  line-height: 25px;
-  letter-spacing: -0.01em;
-  color: #323130;
-}
-</style>
+<style scoped src="../assets/css/univer.css"></style>
+<script setup lang="ts">
+import Nav from "../layouts/component/nav.vue";
+</script>
