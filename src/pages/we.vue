@@ -54,6 +54,9 @@
 <script setup lang="ts">
 import Nav from "../layouts/component/nav.vue";
 </script>
+<<<<<<< HEAD
+<style scoped></style>
+=======
 
 <style scoped>
 body {
@@ -146,3 +149,4 @@ nav {
   margin-top: 70px;
 }
 </style>
+>>>>>>> e914049a4764986f4f25788860a2ded150d2b350
