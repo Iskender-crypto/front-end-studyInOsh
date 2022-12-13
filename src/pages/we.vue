@@ -1,5 +1,6 @@
 <template>
   <header class="header">
+    <Nav></Nav>
     <h1 class="title__1">What we do?</h1>
   </header>
 
@@ -66,14 +67,16 @@ body {
   height: 100vh;
 }
 .title__1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Gilroy";
   font-style: normal;
-  font-weight: 600;
   font-size: 120px;
   line-height: 147px;
-  letter-spacing: -0.01em;
-  color: #323130;
-  margin-top: 100px;
+  color: #e8f7f7;
+  padding-top: 200px;
+  padding-left: -174px;
 }
 
 .my__container {
@@ -81,6 +84,9 @@ body {
   margin: auto;
 }
 .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 600;
