@@ -55,6 +55,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  padding-top: 6-px;
 }
 .navbar__left {
   display: flex;
