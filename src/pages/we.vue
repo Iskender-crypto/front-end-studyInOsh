@@ -18,13 +18,12 @@
         <div class="block_what">
           <h1 class="title1">What we do?</h1>
           <p class="The__Paramount">
-            <b>
-              The Paramount Theatre was a movie palace in downtown Atlanta,
-              Georgia, United States. The building was designed by Philip T.
-              Shutze and was completed in 1920 as the Howard Theatre, a name it
-              kept until 1929. It was located along Peachtree Street, in an area
-              that soon became the location of several other major theaters.
-            </b>
+          
+              The Paramount Theatre was a movie palace in downtown<br/> Atlanta,
+              Georgia, United States.<br/> The building was designed by Philip T.
+              Shutze and was<br/> completed in 1920 as the Howard Theatre,?<br/> a name it
+              kept until 1929. It was located along Peachtree <br/>Street, in an area
+              that soon became<br/> the location of several other major theaters.
             <div class="line"></div>
           </p>
         </div>
@@ -130,7 +129,8 @@ body {
 
 .block_what {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+ 
 }
 .title1 {
   font-family: "Gilroy";
@@ -139,6 +139,7 @@ body {
   font-size: 56px;
   line-height: 69px;
   color: #323130;
+  padding-right: 200px;
 }
 .The__Paramount {
   font-family: "Gilroy";
@@ -147,6 +148,7 @@ body {
   font-size: 17px;
   line-height: 30px;
   color: #323130;
+  padding-top:20px;
 }
 .line {
   position: absolute;
