@@ -326,7 +326,7 @@ html {
   bottom: 140px;
   font-size: 80px;
   cursor: pointer;
-  color: rgb(14, 197, 194);
+  color: black;
   transition: 3s;
   transform: rotate(90deg);
 }
@@ -337,7 +337,7 @@ html {
   bottom: 70px;
   font-size: 80px;
   cursor: pointer;
-  color: rgb(14, 197, 194);
+  color: white;
   transition: 3s;
   transform: rotate(90deg);
 }
