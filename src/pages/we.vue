@@ -12,6 +12,36 @@
     </div>
   </header>
 
+  <section class="What">
+    <div class="container">
+      <div>
+        <div class="block_what">
+          <h1 class="title1">What we do?</h1>
+          <div class="info">
+            <p class="The__Paramount">
+              The Paramount Theatre was a movie palace in downtown<br />
+              Atlanta, Georgia, United States.<br />
+              The building was designed by Philip T. Shutze and was<br />
+              completed in 1920 as the Howard Theatre,?<br />
+              a name it kept until 1929. It was located along Peachtree
+              <br />Street, in an area that soon became<br />
+              the location of several other major theaters.
+            </p>
+            <div class="line"></div>
+            <div class="block_links">
+              <h4 class="Links">Links</h4>
+              <div class="links">
+                <p class="link">Paramount</p>
+                <p class="link">Theatre</p>
+                <p class="link">movie</p>
+                <p class="link">palace in downtown</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="What we do?">
     <div class="container">
       <p class="title">What we do?</p>
@@ -58,7 +88,6 @@
     </div>
   </section>
 </template>
-
 <script setup lang="ts">
 import Nav from "../layouts/component/nav.vue";
 </script>
@@ -108,20 +137,66 @@ body {
   color: #323130;
   margin-top: 100px;
 }
+/* ******************************************************************************** */
 
-/* .colum {
-  width: 1280px;
-  height: 176px;
-  background: #e4e4e4;
-  border-radius: 20px;
-} */
+.block_what {
+  display: flex;
+  padding-top: 50px;
+}
+.title1 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 69px;
+  color: #323130;
+  padding-right: 200px;
+}
+.The__Paramount {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  color: #323130;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.block_links {
+}
 
+.line {
+  border-bottom: 1px solid #a19f9d;
+  margin: 20px 0px;
+}
+.Links {
+}
+
+.links {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  color: #a19f9d;
+  display: flex;
+  flex-wrap: wrap;
+  width: 280px;
+  /* display: flex;
+justify-content: space-between;
+padding-left: 20px;
+padding-right: 50px; */
+}
+.link {
+  margin-right: 20px;
+}
+/* *********************************************************************** */
 .block {
   background: #d9d9d9;
   border-radius: 22px;
   display: flex;
   align-items: center;
-  padding: 40px 45px;
   margin-bottom: 35px;
 }
 .block__title {
@@ -154,9 +229,10 @@ body {
   letter-spacing: -0.01em;
   color: #323130;
 }
-
+.block_what {
+  display: flex;
+}
 nav {
   margin-top: 70px;
 }
 </style>
->>>>>>> e914049a4764986f4f25788860a2ded150d2b350
