@@ -17,15 +17,27 @@
       <div>
         <div class="block_what">
           <h1 class="title1">What we do?</h1>
-          <p class="The__Paramount">
-          
-              The Paramount Theatre was a movie palace in downtown<br/> Atlanta,
-              Georgia, United States.<br/> The building was designed by Philip T.
-              Shutze and was<br/> completed in 1920 as the Howard Theatre,?<br/> a name it
-              kept until 1929. It was located along Peachtree <br/>Street, in an area
-              that soon became<br/> the location of several other major theaters.
+          <div class="info">
+            <p class="The__Paramount">
+              The Paramount Theatre was a movie palace in downtown<br />
+              Atlanta, Georgia, United States.<br />
+              The building was designed by Philip T. Shutze and was<br />
+              completed in 1920 as the Howard Theatre,?<br />
+              a name it kept until 1929. It was located along Peachtree
+              <br />Street, in an area that soon became<br />
+              the location of several other major theaters.
+            </p>
             <div class="line"></div>
-          </p>
+            <div class="block_links">
+              <h4 class="Links">Links</h4>
+              <div class="links">
+                <p class="link">Paramount</p>
+                <p class="link">Theatre</p>
+                <p class="link">movie</p>
+                <p class="link">palace in downtown</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -129,8 +141,7 @@ body {
 
 .block_what {
   display: flex;
-  justify-content: flex-start;
- 
+  padding-top: 50px;
 }
 .title1 {
   font-family: "Gilroy";
@@ -148,24 +159,44 @@ body {
   font-size: 17px;
   line-height: 30px;
   color: #323130;
-  padding-top:20px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
 }
-.line {
-  position: absolute;
-  width: 478px;
-  height: 0px;
-  left: 578px;
-  top: 1262px;
-  border: 1px solid #a19f9d;
+.block_links {
 }
 
+.line {
+  border-bottom: 1px solid #a19f9d;
+  margin: 20px 0px;
+}
+.Links {
+}
+
+.links {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  color: #a19f9d;
+  display: flex;
+  flex-wrap: wrap;
+  width: 280px;
+  /* display: flex;
+justify-content: space-between;
+padding-left: 20px;
+padding-right: 50px; */
+}
+.link {
+  margin-right: 20px;
+}
 /* *********************************************************************** */
 .block {
   background: #d9d9d9;
   border-radius: 22px;
   display: flex;
   align-items: center;
-  padding: 40px 45px;
   margin-bottom: 35px;
 }
 .block__title {
@@ -198,9 +229,10 @@ body {
   letter-spacing: -0.01em;
   color: #323130;
 }
-
+.block_what {
+  display: flex;
+}
 nav {
   margin-top: 70px;
 }
 </style>
->>>>>>> e914049a4764986f4f25788860a2ded150d2b350
