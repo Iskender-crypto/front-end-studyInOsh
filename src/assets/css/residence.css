@@ -1,0 +1,48 @@
+.line {
+  margin-top: 111px;
+  border-top: 1px solid black;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 320px;
+}
+.res__title {
+  margin: 35px 0px 23px 0px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: -0.01em;
+  color: #323130;
+}
+.res__description {
+  width: 477px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  color: #323130;
+}
+.data {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  color: #9b9793;
+}
+
+.res__block {
+  width: 299px;
+  height: 299px;
+  background: #9e9e9e;
+  border-radius: 15px;
+}
+.back__link {
+  margin-top: 200px;
+  color: #9b9793;
+}
