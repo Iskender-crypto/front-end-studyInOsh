@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <div class="navbar__left">
-      <img class="nav__logo" src="../../assets/img/square.png" alt="" />
+      <img class="nav__logo" src="../../assets/img/square-black.png" alt="" />
       <div class="language__selection">
         RU
         <div class="lg__line"></div>
@@ -58,24 +58,24 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  color: #ffffff;
+  color: #323130;
   display: flex;
   align-items: center;
 }
 .lg__line {
   width: 35px;
-  border-bottom: 1px solid #e0dedd;
+  border-bottom: 1px solid #323130;
   transform: rotate(90deg);
 }
 
 .nav-link {
-  color: #ffffff;
+  color: #323130;
   text-decoration: none;
 }
 
 .nav__line {
   width: 58px;
-  border-bottom: 2px solid #c4c4c4;
+  border-bottom: 2px solid #323130;
   transform: rotate(90deg);
 }
 .hamburger__menu {
@@ -85,6 +85,6 @@
 .burger-item {
   padding: 2px;
   width: 22px;
-  border-bottom: 1.5px solid #fafafa;
+  border-bottom: 1.5px solid #323130;
 }
 </style>
