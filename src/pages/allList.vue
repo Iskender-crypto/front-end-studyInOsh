@@ -2,6 +2,7 @@
   <header class="header__allList">
     <div class="header__info">
       <div class="container">
+        <Nav></Nav>
         <div class="header__logo">
           <h1 class="header__title">All list</h1>
           <p class="header__nav">
@@ -54,7 +55,10 @@
             kept until 1929. It was located along Peachtree Street, in an area
             that soon became the location of several other major theaters.
           </p>
-          <h3 class="h3">What you need?</h3>
+          <div class="project__text">
+            <h3 class="h3">What you need?</h3>
+            <p class="text">For the start, read more in link down</p>
+          </div>
           <div class="project-coll">
             <div class="project-col">
               <div class="project-block">
@@ -89,6 +93,7 @@
             </div>
           </div>
         </div>
+        <div class="navbarr"></div>
       </div>
     </div>
   </section>
@@ -104,10 +109,11 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 223px;
 }
 .header__info {
   background-image: url("../assets/img/allListBanner.png");
-  height: 100vh;
+  height: 900px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -189,6 +195,9 @@ nav {
   width: 477px;
 }
 
+.project__text {
+  display: flex;
+}
 .h3 {
   font-family: "Gilroy";
   font-style: normal;
@@ -197,10 +206,21 @@ nav {
   line-height: 35px;
   color: #323130;
 }
+
+.text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #a19f9d;
+  margin: 8px 0px 0px 10px;
+}
 .project-coll {
   display: flex;
   flex-flow: wrap;
   margin-left: -20px;
+  width: 510px;
 }
 .project-col {
   width: 33.3333%;
@@ -212,5 +232,34 @@ nav {
   height: 150px;
   background: #d9d9d9;
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  margin-top: 44px;
+}
+.pp {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  color: #323130;
+  margin-top: 27px;
+}
+.h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  color: #323130;
+}
+.navbarr {
+  width: 358px;
+  height: 791px;
+  background: #d9d9d9;
+  border-radius: 30px;
+  margin: 65px 0px 0px 75px;
 }
 </style>
