@@ -1,3 +1,4 @@
-<template></template>
+<template>
+  <h1>hhhhh</h1>
+</template>
 <script setup lang="ts"></script>
-
