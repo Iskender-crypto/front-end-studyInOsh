@@ -234,6 +234,126 @@
       </div>
     </div>
   </section>
+
+  <!-- ======================== Choose =============================== -->
+
+  <section class="Choose">
+    <div class="choose__container">
+      <h1 class="choose__h1">Choose one</h1>
+
+      <p class="choose__p">
+        Christian Bale (born 1974) is an English actor. Known for his
+        versatility and recurring physical
+      </p>
+
+      <div class="choose__scrool">
+        <div class="choose__object">
+          <div class="choose__block">
+            <div class="choose__inblock">
+              <div class="top__inblock">
+                <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
+
+                <h4 class="h4">Osh SU</h4>
+              </div>
+
+              <p class="bottom__inblock">More 1200+ students</p>
+            </div>
+          </div>
+          <div class="choose__block">
+            <div class="choose__inblock">
+              <div class="top__inblock">
+                <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
+
+                <h4 class="h4">Osh SU</h4>
+              </div>
+
+              <p class="bottom__inblock">More 1200+ students</p>
+            </div>
+          </div>
+          <div class="choose__block">
+            <div class="choose__inblock">
+              <div class="top__inblock">
+                <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
+
+                <h4 class="h4">Osh SU</h4>
+              </div>
+
+              <p class="bottom__inblock">More 1200+ students</p>
+            </div>
+          </div>
+          <div class="choose__block">
+            <div class="choose__inblock">
+              <div class="top__inblock">
+                <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
+
+                <h4 class="h4">Osh SU</h4>
+              </div>
+
+              <p class="bottom__inblock">More 1200+ students</p>
+            </div>
+          </div>
+          <div class="choose__block">
+            <div class="choose__inblock">
+              <div class="top__inblock">
+                <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
+
+                <h4 class="h4">Osh SU</h4>
+              </div>
+
+              <p class="bottom__inblock">More 1200+ students</p>
+            </div>
+          </div>
+          <div class="choose__block">
+            <div class="choose__inblock">
+              <div class="top__inblock">
+                <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
+
+                <h4 class="h4">Osh SU</h4>
+              </div>
+
+              <p class="bottom__inblock">More 1200+ students</p>
+            </div>
+          </div>
+
+          <div class="choose__block">
+            <div class="choose__inblock">
+              <div class="top__inblock">
+                <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
+
+                <h4 class="h4">Osh SU</h4>
+              </div>
+
+              <p class="bottom__inblock">More 1200+ students</p>
+            </div>
+          </div>
+
+          <div class="choose__block">
+            <div class="choose__inblock">
+              <div class="top__inblock">
+                <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
+
+                <h4 class="h4">Osh SU</h4>
+              </div>
+
+              <p class="bottom__inblock">More 1200+ students</p>
+            </div>
+          </div>
+
+          <div class="choose__block">
+            <div class="choose__inblock">
+              <div class="top__inblock">
+                <img src="../assets/img/Sulaiman_oshmu.png" alt="" />
+
+                <h4 class="h4">Osh SU</h4>
+              </div>
+
+              <p class="bottom__inblock">More 1200+ students</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup lang="ts">
@@ -582,5 +702,81 @@ import Nav from "../layouts/component/nav.vue";
   letter-spacing: -0.01em;
 
   color: #323130;
+}
+
+/* ========================== Choose ================================== */
+
+.Choose {
+  background-color: #323130;
+  height: 629px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose__container {
+  width: 1338px;
+  height: 450px;
+  margin-left: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.choose__h1 {
+  width: 652px;
+  height: 147px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 120px;
+  line-height: 147px;
+
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}
+
+.choose__p {
+  width: 354px;
+  height: 50px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}
+
+.choose__scrool {
+  width: 1338px;
+  height: 270px;
+  overflow: hidden;
+  overflow-x: scroll;
+  margin-top: 20px;
+}
+
+.choose__object {
+  display: flex;
+}
+
+.choose__block {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px 0px 0px 20px;
+  margin-right: 27px;
+}
+
+.choose__inblock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 180px;
+  height: 180px;
 }
 </style>
